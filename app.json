@@ -1,13 +1,13 @@
 {
-  "name": "Catuserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "ICSS - USERBOT",
+  "description": "Arabic Userbot for you by - @rruuurr ",
+  "logo": "https://telegra.ph/file/635b6ff805764ded498f9.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/ANL0KE/ICSS-USERBOT/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -45,6 +45,31 @@
       "value": "ANYTHING",
       "required": false
     },
+    "PMPERMIT_PIC": {
+      "description": "صوره ",
+      "value": "",
+      "required": false
+    },
+    "MAX_FLOOD_IN_P_M_s": {
+      "description": "عدد الرسائل ",
+      "value": "5",
+      "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "الكروب ",
+      "value": "",
+      "required": false
+    },
+    "CUSTOM_PMPERMIT_TEXT": {
+      "description": "الكليشه ",
+      "value": "",
+      "required": false
+    },
+    "PRIVATE_GROUP_BOT_API_ID" {
+      "description": "ايدي الكروب ",
+      "value": "",
+      "required": false
+    },
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
@@ -62,7 +87,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "value": "https://github.com/ANL0KE/ICSS-USERBOT",
       "required": false
     }
   },
