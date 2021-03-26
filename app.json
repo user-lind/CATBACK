@@ -60,7 +60,7 @@
       "value": "",
       "required": false
     },
-    "PRIVATE_GROUP_BOT_API_ID" {
+    "PRIVATE_GROUP_BOT_API_ID": {
       "description": "ايدي الكروب ",
       "value": "",
       "required": false
