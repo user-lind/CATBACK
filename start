@@ -77,7 +77,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 _set_bot () {
     local zippath
     zippath="catuserbot.zip"
-    echo "⫷ جاري تنزيل اكواد السورس ⫸
+    echo "⫷ جاري تنزيل اكواد السورس ⫸"
     wget -q $(_get_ziplink) -O "$zippath"
     echo "⫷ تفريغ البيانات ⫸"
     CATPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
