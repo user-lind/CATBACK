@@ -12,37 +12,32 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "ادخل اسمك هنا",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "اب ايدي",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "ايبي هاش",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "كود التيرمكس",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "description": "معرف البوت",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": " توكن البوت - يجب وضع البوت انلاين مود",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "description": "اشارة الامر . , ' `",
       "value": ".",
-      "required": false
-    },
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING",
       "required": false
     },
     "PMPERMIT_PIC": {
@@ -71,22 +66,22 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "اسم التطبيق ",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "description": "منطقتك ",
+      "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
+      "description": "رابط السورس",
       "value": "https://github.com/ANL0KE/ICSS-USERBOT",
       "required": false
     }
