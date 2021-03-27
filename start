@@ -10,9 +10,6 @@ _get_ziplink () {
     elif [[ $UPSTREAM_REPO == "badcat" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL2ppc2FuMDkvY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
-    elif [[ $UPSTREAM_REPO == "kimo" ]]
-    then
-        echo "https://github/ANL0KE/ICSS-USERBOT/archive/master.zip"
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -36,9 +33,6 @@ _get_repolink () {
     elif [[ $UPSTREAM_REPO == "badcat" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FuMDkvY2F0dXNlcmJvdA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "kimo" ]]
-    then
-        rlink=`echo "https://github/ANL0KE/ICSS-USERBOT"`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
