@@ -27,8 +27,6 @@
       "description": "كود التيرمكس",
       "value": ""
     },
-
-    },
     "ENV": {
       "description": "لا تدخل اي معلومه فيها",
       "value": "ANYTHING"
