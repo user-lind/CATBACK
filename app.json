@@ -27,6 +27,12 @@
       "description": "كود التيرمكس",
       "value": ""
     },
+
+    },
+    "ENV": {
+      "description": "لا تدخل اي معلومه فيها",
+      "value": "ANYTHING"
+    },
     "TG_BOT_USERNAME": {
       "description": "معرف البوت",
       "value": ""
@@ -82,7 +88,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رابط السورس",
-      "value": "https://github.com/ANL0KE/ICSS-USERBOT",
+      "value": "https://github.com/ANL0KE/catuserbot",
       "required": false
     }
   },
