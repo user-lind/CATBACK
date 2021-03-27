@@ -28,7 +28,7 @@
       "value": ""
     },
     "ENV": {
-      "description": "لا تدخل اي معلومه فيها",
+      "description": "لتغير بيها شي",
       "value": "ANYTHING"
     },
     "TG_BOT_USERNAME": {
@@ -86,7 +86,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رابط السورس",
-      "value": "https://github.com/ANL0KE/catuserbot",
+      "value": "https://github.com/ANL0KE/ICSS-USERBOT",
       "required": false
     }
   },
