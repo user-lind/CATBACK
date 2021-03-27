@@ -85,8 +85,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "رابط السورس",
-      "value": "https://github.com/ANL0KE/ICSS-USERBOT",
+      "description": "رمز السورس",
+      "value": "kimo ",
       "required": false
     }
   },
