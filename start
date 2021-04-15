@@ -6,7 +6,7 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "kimo" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw ==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -26,7 +26,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "kimo" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw ==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9JQ1NTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
