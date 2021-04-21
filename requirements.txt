@@ -69,5 +69,6 @@ validators
 vcsi
 wand
 wikipedia
+yaml
 youtube_dl
 youtube-search-python
