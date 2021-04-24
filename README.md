@@ -5,7 +5,7 @@ This is just heroku support source
 Main source is here [main source](https://github.com/sandy1709/catuserbot) fork and give star to that repo 
 
 ## Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FANL0KE%2FICSSBACK)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ANL0KE/ICSSBACK)
 
 ## credits
    - [@midnightmadwalk](https://t.me/midnightmadwalk)
