@@ -10,4 +10,4 @@ echo "
         𓍹 Visit @rruuurr for help 𓍻
 "
 
-python3 -m pyUltroid
+python3 -m userbot
