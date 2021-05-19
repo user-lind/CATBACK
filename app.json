@@ -39,11 +39,6 @@
       "description": " توكن البوت - يجب وضع البوت انلاين مود",
       "value": ""
     },
-    "COMMAND_HAND_LER": {
-      "description": "اشارة الامر . , ' `",
-      "value": ".",
-      "required": false
-    },
     "PMPERMIT_PIC": {
       "description": "صوره ",
       "value": "",
