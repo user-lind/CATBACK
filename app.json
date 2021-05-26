@@ -44,7 +44,12 @@
       "value": "",
       "required": false
     },
-    "MAX_FLOOD_IN_P_M_s": {
+    "COMMAND_HAND_LER": {
+      "description": "اتركها كما هيه",
+      "value": ".",
+      "required": false
+    },
+    "MAX_FLOOD_IN_PMS": {
       "description": "عدد الرسائل ",
       "value": "5",
       "required": false
