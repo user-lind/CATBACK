@@ -1,7 +1,7 @@
-FROM ANL0KE/catuserbot:alpine
+FROM user-lind/lind:latest
 
 #clonning repo 
-RUN git clone https://github.com/ANL0KE/catuserbot.git /root/userbot
+RUN git clone https://github.com/user-lind/lind.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
@@ -11,3 +11,4 @@ RUN pip3 install -U -r requirements.txt
 ENV PATH="/home/userbot/bin:$PATH"
 
 CMD ["python3","-m","userbot"]
+© 2021 GitHub, Inc.
